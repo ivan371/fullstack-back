@@ -1,2 +1,2 @@
 heroku ps:scale web=1
-web: gunicorn app:app
+web: python manage.py runserver 0.0.0.0:8000
