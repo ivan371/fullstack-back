@@ -1,3 +1,3 @@
 heroku ps:scale web=1
-web: gunicorn gettingstarted.wsgi --log-file -
+web: gunicorn app.wsgi --log-file -
 
