@@ -25,7 +25,7 @@ SECRET_KEY = 'dirr3(ub4&xbcjpfs(i$=&xsj@+nlb^ed(wba83)-k8ui+)1%x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://mipt-back.herokuapp.com']
 
 
 # Application definition
