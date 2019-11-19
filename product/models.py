@@ -6,7 +6,7 @@ class Product(models.Model):
   price = models.IntegerField(default=0)
   description = models.TextField()
   owner = models.ForeignKey(User, on_delete=models.CASCADE)
-  image = models.ImageField()
+  image = models.ImageField(blank=True)
 
   def __str__(self):
       return self.name
